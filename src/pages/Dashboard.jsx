@@ -9,7 +9,7 @@ const Dashboard = () => {
     const enrolledSet = new Set();
 
     useEffect(() => {
-        // Replace with actual data fetching logic
+      
         const fetchCourses = async () => {
             const data = await fetch('http://localhost:3001/courses').then((res) => res.json());
             data.map((item) => {
@@ -44,7 +44,7 @@ const Dashboard = () => {
                             <div className="progress-bar">
                                 <div
                                     className="progress"
-                                    style={{ width: course.completed ? '100%' : '50%' }} // Example progress
+                                    style={{ width: course.completed ? '100%' : '50%' }} 
                                 >
                                     {course.completed ? 'Completed' : 'In Progress'}
                                 </div>
