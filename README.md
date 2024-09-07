@@ -12,4 +12,6 @@ This is a simple web application built using **React**, **Vite**, and **Redux**.
 # RUN
 
 Open the terminal and type to run the json-server locally:npx json-server --watch -p 3001 db.json
+
+
 also type to create a link to open the website locally:npm run dev
