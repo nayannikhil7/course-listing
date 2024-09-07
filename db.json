@@ -1,0 +1,273 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Introduction to React",
+      "instructor": "John Doe",
+      "description": "Learn the basics of React and build dynamic web applications.",
+      "enrollmentStatus": "open",
+      "thumbnail": "https://miro.medium.com/v2/resize:fit:1400/1*r9tt9nzSsSarK9kMwqsNuQ.png",
+      "duration": "6 weeks",
+      "schedule": "Mondays and Wednesdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic JavaScript"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to React",
+          "content": "Overview of React, setting up your environment."
+        },
+        {
+          "week": 2,
+          "topic": "React Components",
+          "content": "Understanding components and props."
+        }
+      ],
+      "dueDate": "2024-10-10"
+    },
+    {
+      "id": 2,
+      "name": "Advanced React",
+      "instructor": "Jane Smith",
+      "description": "Deep dive into React hooks, context, and advanced patterns.",
+      "enrollmentStatus": "open",
+      "thumbnail": "https://cdn.prod.website-files.com/64ac2a10ca05a003044df744/659d92386a5b8e5d3741d5ce_Frame%2012.png",
+      "duration": "8 weeks",
+      "schedule": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Introduction to React"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "React Hooks",
+          "content": "Understanding useState, useEffect, and custom hooks."
+        },
+        {
+          "week": 2,
+          "topic": "Context API",
+          "content": "Managing global state with Context API."
+        }
+      ],
+      "dueDate": "2024-11-15"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript for Beginners",
+      "instructor": "Michael Lee",
+      "description": "A beginner's guide to JavaScript, the language of the web.",
+      "enrollmentStatus": "Closed",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpD9mrEtU7YUaLiHN9HxHzxWPNuWx9Th59Ig&s",
+      "duration": "4 weeks",
+      "schedule": "Fridays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": [],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to JavaScript",
+          "content": "Learn about variables, data types, and operators."
+        },
+        {
+          "week": 2,
+          "topic": "Control Structures",
+          "content": "Understand loops and conditional statements."
+        }
+      ],
+      "dueDate": "2024-09-28"
+    },
+    {
+      "id": 4,
+      "name": "Full-Stack Web Development",
+      "instructor": "Emily Clark",
+      "description": "Learn to build full-stack web applications with React and Node.js.",
+      "enrollmentStatus": "Closed",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPV0S6QPMqXN7rCVsTPsQzKSWcb2mpBU6Z4Q&s",
+      "duration": "12 weeks",
+      "schedule": "Mondays, Wednesdays, and Fridays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic JavaScript",
+        "Introduction to React"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Frontend Development with React",
+          "content": "Build the frontend of your web application using React."
+        },
+        {
+          "week": 2,
+          "topic": "Backend Development with Node.js",
+          "content": "Create a RESTful API with Node.js and Express."
+        }
+      ],
+      "dueDate": "2024-12-01"
+    },
+    {
+      "id": 5,
+      "name": "React Native for Mobile Development",
+      "instructor": "David Johnson",
+      "description": "Build mobile applications using React Native.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7c0UqQMDhdYT-Uw8doSL5ZLmh1I3fNb_9PQ&s",
+      "duration": "8 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Introduction to React"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to React Native",
+          "content": "Overview of React Native, setting up your environment."
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First App",
+          "content": "Create a simple mobile app using React Native components."
+        }
+      ],
+      "dueDate": "2024-10-25"
+    },
+    {
+      "id": 6,
+      "name": "Data Structures and Algorithms",
+      "instructor": "Sara Davis",
+      "description": "Master data structures and algorithms with this comprehensive course.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmVeLTyGkk6Cs7HbuWQEMJ8LNsc268Vg-LFw&s",
+      "duration": "10 weeks",
+      "schedule": "Wednesdays and Fridays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic Programming Knowledge"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Data Structures",
+          "content": "Learn about arrays, linked lists, and more."
+        },
+        {
+          "week": 2,
+          "topic": "Sorting Algorithms",
+          "content": "Understand different sorting algorithms and their complexities."
+        }
+      ],
+      "dueDate": "2024-11-30"
+    },
+    {
+      "id": 7,
+      "name": "Introduction to Machine Learning",
+      "instructor": "Chris Martinez",
+      "description": "Learn the basics of machine learning and build predictive models.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkcm8lYl0hN5ajR8pFyU_68RETRW_IwzRBqQ&s",
+      "duration": "8 weeks",
+      "schedule": "Mondays and Wednesdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic Python Knowledge"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Machine Learning",
+          "content": "Understand the basics of machine learning."
+        },
+        {
+          "week": 2,
+          "topic": "Supervised Learning",
+          "content": "Learn about supervised learning and common algorithms."
+        }
+      ],
+      "dueDate": "2024-11-08"
+    },
+    {
+      "id": 8,
+      "name": "Python for Data Science",
+      "instructor": "Laura Wilson",
+      "description": "Use Python to analyze and visualize data in this comprehensive course.",
+      "enrollmentStatus": "Closed",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKiNaxW3GYgeLCkVDR9zuZi4276uLH2P98KQ&s",
+      "duration": "6 weeks",
+      "schedule": "Tuesdays and Thursdays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic Python Knowledge"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Data Science",
+          "content": "Learn what data science is and how Python is used."
+        },
+        {
+          "week": 2,
+          "topic": "Data Analysis with Pandas",
+          "content": "Analyze data using Pandas."
+        }
+      ],
+      "dueDate": "2024-10-15"
+    },
+    {
+      "id": 9,
+      "name": "Cloud Computing with AWS",
+      "instructor": "Mark Thomas",
+      "description": "Learn to build and deploy applications in the cloud using AWS.",
+      "enrollmentStatus": "Closed",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDBvTLefJr8hH8UgZa0SUR5B0gp1xd5hxleQ&s",
+      "duration": "8 weeks",
+      "schedule": "Wednesdays and Fridays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic Networking Knowledge"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to AWS",
+          "content": "Understand the basics of cloud computing and AWS services."
+        },
+        {
+          "week": 2,
+          "topic": "Setting Up AWS",
+          "content": "Learn to set up your AWS environment."
+        }
+      ],
+      "dueDate": "2024-10-28"
+    },
+    {
+      "id": 10,
+      "name": "Cybersecurity Fundamentals",
+      "instructor": "Jessica Brown",
+      "description": "Understand the fundamentals of cybersecurity and how to protect systems.",
+      "enrollmentStatus": "Closed",
+      "thumbnail": "https://media.licdn.com/dms/image/D5612AQE0r5WC8r0HQg/article-cover_image-shrink_720_1280/0/1657711469335?e=2147483647&v=beta&t=y46kqfqImgi-IbshBGRs3lMz1HCTBvL8RjFAILShitg",
+      "duration": "8 weeks",
+      "schedule": "Mondays and Wednesdays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic IT Knowledge"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Cybersecurity",
+          "content": "Learn the basics of cybersecurity."
+        },
+        {
+          "week": 2,
+          "topic": "Network Security",
+          "content": "Understand how to secure networks."
+        }
+      ],
+      "dueDate": "2024-12-05"
+    }
+  ]
+}

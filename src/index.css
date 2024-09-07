@@ -1,0 +1,117 @@
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* Allows cards to wrap onto the next row if needed */
+  justify-content: space-between;
+  /* Adds space between the cards */
+  gap: 16px;
+  /* Adds spacing between the cards */
+}
+
+.enrolled-course-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* Allows cards to wrap onto the next row if needed */
+  justify-content: space-between;
+  /* Adds space between the cards */
+  gap: 16px;
+  /* Adds spacing between the cards */
+}
+
+.course-card {
+  width: calc(33.333% - 16px);
+  /* Ensures three cards in a row with 16px spacing */
+  box-sizing: border-box;
+  /* Ensures padding and border do not affect the width */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.course-card img {
+  width: 150px;
+  height: 100px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.course-card h3 {
+  margin: 8px 0;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 8px 0;
+}
+
+.progress {
+  height: 24px;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  line-height: 24px;
+  border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+/* Header container to position button and avatar */
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: white;
+  z-index: 1000;
+  /* Ensure the header is always visible */
+}
+
+/* Button styling */
+.dashboard-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-btn:hover {
+  background-color: #45a049;
+}
+
+/* Avatar styling */
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+/* Adjust page layout to prevent content from being hidden by the fixed header */
+body {
+  padding-top: 70px;
+  /* Adjust this value if needed */
+}
+
+.heading {
+  text-align: center;
+}
