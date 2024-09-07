@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-    enrolledCourses: [], // This will hold the list of courses the student is enrolled in
+    enrolledCourses: [], 
 };
 
 const studentsSlice = createSlice({
